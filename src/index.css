@@ -1,0 +1,36 @@
+/* Importa la configuración base de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Estilos globales para <body>:
+  - font-sans: Usa una fuente sans-serif para todo el texto.
+  - bg-background: Aplica el color de fondo definido en la paleta extendida de Tailwind (usualmente blanco o claro).
+  - text-neutral: Usa un color de texto neutro, adecuado para la mayoría de los fondos.
+  - min-h-screen: Asegura que el body tenga al menos la altura de la pantalla.
+  - antialiased: Suaviza los bordes de las fuentes para mejor legibilidad.
+  - transition-colors duration-300: Hace que los cambios de color (por ejemplo, al cambiar a modo oscuro) sean suaves y duren 300ms.
+*/
+body {
+  @apply font-sans bg-background text-neutral min-h-screen antialiased transition-colors duration-300;
+}
+
+/*
+  Estilos para el modo oscuro:
+  - .dark .body, body.dark: Selecciona el body cuando el modo oscuro está activo (usando la clase .dark en un ancestro o en el body).
+  - bg-neutral: Cambia el fondo a un color neutro oscuro.
+  - text-background: Cambia el color del texto al color de fondo claro, para contraste.
+*/
+.dark .body, body.dark {
+  @apply bg-neutral text-background;
+}
+
+:root {
+  /*
+    Aquí se pueden definir variables CSS personalizadas si se necesitan más adelante.
+    Por ejemplo, podrías definir colores personalizados usando la sintaxis:
+    --mi-color: #123456;
+    Estas variables pueden ser usadas en tu CSS con var(--mi-color).
+  */
+}

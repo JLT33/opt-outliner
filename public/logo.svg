@@ -1,0 +1,6 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="32" fill="#eaf4fb"/>
+  <text x="50%" y="44%" text-anchor="middle" fill="#2258A6" font-family="'Segoe UI', Arial, sans-serif" font-weight="bold" font-size="30">OPT</text>
+  <rect x="32" y="60" width="64" height="16" rx="8" fill="#3399FF" opacity="0.16"/>
+  <text x="50%" y="72%" text-anchor="middle" fill="#3399FF" font-family="'Segoe UI', Arial, sans-serif" font-weight="bold" font-size="18">Outliner</text>
+</svg>

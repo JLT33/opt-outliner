@@ -1,0 +1,19 @@
+{
+  "name": "OPT-Outliner",
+  "short_name": "OPT-Outliner",
+  "description": "Gestión personal, objetivos y tareas tipo outliner. PWA, mobile-first, offline y sincronizable.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#eaf4fb",
+  "theme_color": "#2258A6",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
